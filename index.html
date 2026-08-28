@@ -216,73 +216,75 @@
          BRAND VIDEO
     ====================================================== -->
     <section
-      class="brand-video-section"
-      id="brand"
+  class="brand-video-section"
+  id="brand"
+>
+
+  <div class="brand-video-card">
+
+    <!-- PC -->
+    <video
+      class="brand-video brand-video-desktop"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      poster="./assets/images/hero-video.jpg"
     >
-
-      <div class="brand-video-card">
-
-
-        <!-- PC / 태블릿 영상 -->
-        <video
-          class="brand-video brand-video-desktop"
-          autoplay
-          muted
-          loop
-          playsinline
-          preload="metadata"
-        >
-          <source
-            src="./assets/video/brand-film-desktop.mp4.mp4"
-            type="video/mp4"
-          >
-        </video>
+      <source
+        src="./assets/video/brand-film-desktop.mp4.mp4"
+        type="video/mp4"
+      >
+    </video>
 
 
-        <!-- 모바일 영상 -->
-        <video
-          class="brand-video brand-video-mobile"
-          autoplay
-          muted
-          loop
-          playsinline
-          preload="metadata"
-        >
-          <source
-            src="assets/video/brand-film-mobile.mp4.mp4"
-            type="video/mp4"
-          >
-        </video>
+    <!-- MOBILE -->
+    <video
+      class="brand-video brand-video-mobile"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      poster="./assets/images/hero-video.jpg"
+    >
+      <source
+        src="./assets/video/brand-film-mobile.mp4"
+        type="video/mp4"
+      >
+    </video>
 
 
-        <div class="brand-video-overlay"></div>
+    <div class="brand-video-overlay"></div>
 
 
-        <div class="brand-video-content">
+    <div class="brand-video-content">
 
-          <h2>
-            CHEVROLET
-          </h2>
+      <h2>CHEVROLET</h2>
 
-          <p class="brand-video-title">
-            쉐보레, 도시를 달리다
-          </p>
+      <p class="brand-video-title">
+        쉐보레, 도시를 달리다
+      </p>
 
-          <p class="brand-video-desc">
-            일상과 새로운 경험을 연결하는<br>
-            쉐보레의 라이프스타일을 만나보세요.
-          </p>
+      <p class="brand-video-desc">
+        일상과 새로운 경험을 연결하는<br>
+        쉐보레의 라이프스타일을 만나보세요.
+      </p>
 
-          <a href="#" class="brand-video-link">
-            브랜드 영상 보기 →
-          </a>
+      <button
+        class="brand-video-link"
+        type="button"
+        id="videoControl"
+      >
+        영상 일시정지
+      </button>
 
-        </div>
+    </div>
 
-      </div>
+  </div>
 
-    </section>
-
+</section>
 
 
     <!-- =====================================================
